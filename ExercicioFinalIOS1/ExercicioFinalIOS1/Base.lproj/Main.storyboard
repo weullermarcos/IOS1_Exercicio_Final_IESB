@@ -8,25 +8,27 @@
         <!--Item-->
         <scene sceneID="lgg-A5-wVi">
             <objects>
-                <collectionViewController id="gDa-Ph-uoB" sceneMemberID="viewController">
+                <collectionViewController id="gDa-Ph-uoB" customClass="ExemploCollectionViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Sng-Gh-zFQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="r7b-lE-zei">
-                            <size key="itemSize" width="50" height="50"/>
+                        <color key="backgroundColor" red="1" green="0.54699655540000003" blue="0.109397411" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dRL-ZM-kgI">
+                            <size key="itemSize" width="130" height="126"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ETj-i4-oHt">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MinhaCelula" id="ETj-i4-oHt">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="130" height="126"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -38,7 +40,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dJU-5X-LXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="751" y="25"/>
+            <point key="canvasLocation" x="649" y="23"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="1FC-Ey-bqi">
@@ -85,7 +87,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rxs-Av-Acw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="897" y="888"/>
+            <point key="canvasLocation" x="751" y="862"/>
         </scene>
     </scenes>
 </document>

@@ -13,6 +13,7 @@
 		5787DCFA1D7795F0006CACB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5787DCF81D7795F0006CACB3 /* Main.storyboard */; };
 		5787DCFC1D7795F0006CACB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5787DCFB1D7795F0006CACB3 /* Assets.xcassets */; };
 		5787DCFF1D7795F0006CACB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5787DCFD1D7795F0006CACB3 /* LaunchScreen.storyboard */; };
+		5787DD081D77A0E9006CACB3 /* ExemploCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DD071D77A0E9006CACB3 /* ExemploCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5787DCFB1D7795F0006CACB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5787DCFE1D7795F0006CACB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5787DD001D7795F0006CACB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5787DD061D77A0E9006CACB3 /* ExemploCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExemploCollectionViewController.h; sourceTree = "<group>"; };
+		5787DD071D77A0E9006CACB3 /* ExemploCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExemploCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5787DCFD1D7795F0006CACB3 /* LaunchScreen.storyboard */,
 				5787DD001D7795F0006CACB3 /* Info.plist */,
 				5787DCEF1D7795F0006CACB3 /* Supporting Files */,
+				5787DD061D77A0E9006CACB3 /* ExemploCollectionViewController.h */,
+				5787DD071D77A0E9006CACB3 /* ExemploCollectionViewController.m */,
 			);
 			path = ExercicioFinalIOS1;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				5787DCF71D7795F0006CACB3 /* ViewController.m in Sources */,
 				5787DCF41D7795F0006CACB3 /* AppDelegate.m in Sources */,
 				5787DCF11D7795F0006CACB3 /* main.m in Sources */,
+				5787DD081D77A0E9006CACB3 /* ExemploCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				5787DD051D7795F0006CACB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
