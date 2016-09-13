@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BDDCCCB1D88563B0070411D /* MinhaTabelaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDDCCCA1D88563B0070411D /* MinhaTabelaTableViewController.m */; };
 		5787DCF11D7795F0006CACB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DCF01D7795F0006CACB3 /* main.m */; };
 		5787DCF41D7795F0006CACB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DCF31D7795F0006CACB3 /* AppDelegate.m */; };
 		5787DCF71D7795F0006CACB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DCF61D7795F0006CACB3 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BDDCCC91D88563B0070411D /* MinhaTabelaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinhaTabelaTableViewController.h; sourceTree = "<group>"; };
+		0BDDCCCA1D88563B0070411D /* MinhaTabelaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinhaTabelaTableViewController.m; sourceTree = "<group>"; };
 		5787DCEC1D7795F0006CACB3 /* ExercicioFinalIOS1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExercicioFinalIOS1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5787DCF01D7795F0006CACB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5787DCF21D7795F0006CACB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				5787DCEF1D7795F0006CACB3 /* Supporting Files */,
 				5787DD061D77A0E9006CACB3 /* ExemploCollectionViewController.h */,
 				5787DD071D77A0E9006CACB3 /* ExemploCollectionViewController.m */,
+				0BDDCCC91D88563B0070411D /* MinhaTabelaTableViewController.h */,
+				0BDDCCCA1D88563B0070411D /* MinhaTabelaTableViewController.m */,
 			);
 			path = ExercicioFinalIOS1;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5787DCF71D7795F0006CACB3 /* ViewController.m in Sources */,
+				0BDDCCCB1D88563B0070411D /* MinhaTabelaTableViewController.m in Sources */,
 				5787DCF41D7795F0006CACB3 /* AppDelegate.m in Sources */,
 				5787DCF11D7795F0006CACB3 /* main.m in Sources */,
 				5787DD081D77A0E9006CACB3 /* ExemploCollectionViewController.m in Sources */,
