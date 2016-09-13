@@ -54,11 +54,31 @@
                     <connections>
                         <segue destination="UPM-ej-bYv" kind="relationship" relationship="viewControllers" id="kXx-Zx-keh"/>
                         <segue destination="ne0-AO-5EA" kind="relationship" relationship="viewControllers" id="GAG-Us-Xzu"/>
+                        <segue destination="dZy-HT-99n" kind="relationship" relationship="viewControllers" id="2ay-Dz-ab6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DEx-F4-AD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-308" y="411"/>
+            <point key="canvasLocation" x="-296" y="381"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="05B-rq-YF5">
+            <objects>
+                <viewController id="dZy-HT-99n" customClass="MinhaTelaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S6B-MW-gbJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dV9-3D-T8d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Pm-w2-inS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="wQT-6o-mCH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2R7-1f-ltP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-296" y="1158"/>
         </scene>
         <!--Minha Tabela Table View Controller-->
         <scene sceneID="T0T-HR-sx6">

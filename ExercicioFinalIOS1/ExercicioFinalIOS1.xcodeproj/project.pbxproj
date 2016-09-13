@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B34DBCA1D88A93100EBD976 /* MinhaTelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B34DBC91D88A93100EBD976 /* MinhaTelaViewController.m */; };
+		0B34DBCD1D88A9A000EBD976 /* MinhaEstrelaUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B34DBCC1D88A9A000EBD976 /* MinhaEstrelaUIView.m */; };
+		0B34DBD01D88A9C300EBD976 /* MeuPentagonoUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B34DBCF1D88A9C300EBD976 /* MeuPentagonoUIView.m */; };
+		0B34DBD31D88A9E900EBD976 /* MeuCirculoUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B34DBD21D88A9E900EBD976 /* MeuCirculoUIView.m */; };
 		0BDDCCCB1D88563B0070411D /* MinhaTabelaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDDCCCA1D88563B0070411D /* MinhaTabelaTableViewController.m */; };
 		5787DCF11D7795F0006CACB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DCF01D7795F0006CACB3 /* main.m */; };
 		5787DCF41D7795F0006CACB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DCF31D7795F0006CACB3 /* AppDelegate.m */; };
@@ -18,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B34DBC81D88A93100EBD976 /* MinhaTelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinhaTelaViewController.h; sourceTree = "<group>"; };
+		0B34DBC91D88A93100EBD976 /* MinhaTelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinhaTelaViewController.m; sourceTree = "<group>"; };
+		0B34DBCB1D88A9A000EBD976 /* MinhaEstrelaUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinhaEstrelaUIView.h; sourceTree = "<group>"; };
+		0B34DBCC1D88A9A000EBD976 /* MinhaEstrelaUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinhaEstrelaUIView.m; sourceTree = "<group>"; };
+		0B34DBCE1D88A9C300EBD976 /* MeuPentagonoUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeuPentagonoUIView.h; path = ../MeuPentagonoUIView.h; sourceTree = "<group>"; };
+		0B34DBCF1D88A9C300EBD976 /* MeuPentagonoUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeuPentagonoUIView.m; path = ../MeuPentagonoUIView.m; sourceTree = "<group>"; };
+		0B34DBD11D88A9E900EBD976 /* MeuCirculoUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeuCirculoUIView.h; sourceTree = "<group>"; };
+		0B34DBD21D88A9E900EBD976 /* MeuCirculoUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeuCirculoUIView.m; sourceTree = "<group>"; };
 		0BDDCCC91D88563B0070411D /* MinhaTabelaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinhaTabelaTableViewController.h; sourceTree = "<group>"; };
 		0BDDCCCA1D88563B0070411D /* MinhaTabelaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinhaTabelaTableViewController.m; sourceTree = "<group>"; };
 		5787DCEC1D7795F0006CACB3 /* ExercicioFinalIOS1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExercicioFinalIOS1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +89,14 @@
 				5787DD071D77A0E9006CACB3 /* ExemploCollectionViewController.m */,
 				0BDDCCC91D88563B0070411D /* MinhaTabelaTableViewController.h */,
 				0BDDCCCA1D88563B0070411D /* MinhaTabelaTableViewController.m */,
+				0B34DBC81D88A93100EBD976 /* MinhaTelaViewController.h */,
+				0B34DBC91D88A93100EBD976 /* MinhaTelaViewController.m */,
+				0B34DBCB1D88A9A000EBD976 /* MinhaEstrelaUIView.h */,
+				0B34DBCC1D88A9A000EBD976 /* MinhaEstrelaUIView.m */,
+				0B34DBCE1D88A9C300EBD976 /* MeuPentagonoUIView.h */,
+				0B34DBCF1D88A9C300EBD976 /* MeuPentagonoUIView.m */,
+				0B34DBD11D88A9E900EBD976 /* MeuCirculoUIView.h */,
+				0B34DBD21D88A9E900EBD976 /* MeuCirculoUIView.m */,
 			);
 			path = ExercicioFinalIOS1;
 			sourceTree = "<group>";
@@ -159,9 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B34DBCA1D88A93100EBD976 /* MinhaTelaViewController.m in Sources */,
+				0B34DBCD1D88A9A000EBD976 /* MinhaEstrelaUIView.m in Sources */,
+				0B34DBD01D88A9C300EBD976 /* MeuPentagonoUIView.m in Sources */,
 				5787DCF71D7795F0006CACB3 /* ViewController.m in Sources */,
 				0BDDCCCB1D88563B0070411D /* MinhaTabelaTableViewController.m in Sources */,
 				5787DCF41D7795F0006CACB3 /* AppDelegate.m in Sources */,
+				0B34DBD31D88A9E900EBD976 /* MeuCirculoUIView.m in Sources */,
 				5787DCF11D7795F0006CACB3 /* main.m in Sources */,
 				5787DD081D77A0E9006CACB3 /* ExemploCollectionViewController.m in Sources */,
 			);

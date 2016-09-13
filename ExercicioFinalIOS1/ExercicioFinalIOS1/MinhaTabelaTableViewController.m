@@ -2,7 +2,6 @@
 //  MinhaTabelaTableViewController.m
 //  ExercicioFinalIOS1
 //
-//  Created by Hoff Silva on 13/09/16.
 //  Copyright © 2016 Weuller. All rights reserved.
 //
 
