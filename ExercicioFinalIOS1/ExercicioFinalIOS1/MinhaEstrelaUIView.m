@@ -26,7 +26,7 @@
 }
 
 -(void) configurar {
-    [self setBackgroundColor:[UIColor blueColor]];
+    [self setBackgroundColor:[UIColor lightGrayColor]];
 }
 
 - (CGPoint) pontoDoAngulo: (CGFloat) angulo comRaio: (CGFloat) raio eOffset: (CGPoint) offset {
@@ -68,7 +68,7 @@
     UIColor *cor = [UIColor colorWithRed:10.0/255.0 green:255.0/255.0 blue:10.0/255.0 alpha:1];
     
     
-    UIColor *outraCor = [UIColor magentaColor];
+    UIColor *outraCor = [UIColor darkGrayColor];
     
     [cor setFill];
     [outraCor setStroke];
